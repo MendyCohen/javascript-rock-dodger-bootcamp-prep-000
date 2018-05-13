@@ -109,7 +109,7 @@ function createRock(x) {
    
   function getStarted(){
     if(START === true){
-      createRock();
+      window.requestAnimationFrame(createRock);
     }
   }
   //window.requestAnimationFrame(moveRock);
