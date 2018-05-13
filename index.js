@@ -107,7 +107,7 @@ function createRock(x) {
 
   // We should kick of the animation of the rock around here
    
-  (function(){
+  function(){
     if(START === true){
       createRock();
     }
