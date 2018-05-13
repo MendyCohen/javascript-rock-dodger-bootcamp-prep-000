@@ -109,8 +109,6 @@ function createRock(x) {
    
 
       window.requestAnimationFrame(createRock);
-      
-  //window.requestAnimationFrame(moveRock);
    
   // Add the rock to ROCKS so that we can remove all rocks
   // when there's a collision
