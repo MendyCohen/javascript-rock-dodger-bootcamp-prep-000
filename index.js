@@ -107,11 +107,11 @@ function createRock(x) {
 
   // We should kick of the animation of the rock around here
    
-  function(){
+  function getStarted(){
     if(START === true){
       createRock();
     }
-  });
+  }
   //window.requestAnimationFrame(moveRock);
    
   // Add the rock to ROCKS so that we can remove all rocks
