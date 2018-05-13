@@ -107,7 +107,7 @@ function createRock(x) {
 
   // We should kick of the animation of the rock around here
    
-  window.requestAnimationFrame(function(){
+  window.requestAnimationFrame(function(e){
     if(START === true){
       createRock();
     }
@@ -121,7 +121,7 @@ function createRock(x) {
   // Finally, return the rock element you've created
   return rock;
 }
-   window.requestAnimationFrame(createRock);
+   window.requestAnimationFrame(e);
 /**
  * End the game by clearing `gameInterval`,
  * removing all ROCKS from the DOM,
